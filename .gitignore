@@ -14,7 +14,14 @@
 /coverage
 
 # screenshots and design review artefacts
-/screenshots
+/screenshots/*
+!/screenshots/dashboard--desktop.png
+!/screenshots/journal--desktop.png
+!/screenshots/journal-new--desktop.png
+!/screenshots/vault--desktop.png
+!/screenshots/finances--desktop.png
+!/screenshots/timeline--desktop.png
+!/screenshots/brief--desktop.png
 /test-design-ui
 /.playwright-mcp
 /*.png

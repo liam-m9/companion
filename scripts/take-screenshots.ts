@@ -67,9 +67,8 @@ async function login(page: Page): Promise<boolean> {
   console.log(`\n🔐 Logging in as ${EMAIL}...`);
   await page.goto(`${BASE_URL}/login`, { waitUntil: "networkidle" });
 
-  // Fill using input IDs (derived from label prop: "Email" -> "email", "Password" -> "password")
-  await page.locator("#email").fill(EMAIL);
-  await page.locator("#password").fill(PASSWORD);
+  await page.locator('input[type="email"]').fill(EMAIL);
+  await page.locator('input[type="password"]').fill(PASSWORD);
   await page.locator('button[type="submit"]').click();
 
   try {
