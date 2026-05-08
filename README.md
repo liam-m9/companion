@@ -1,6 +1,6 @@
 # Companion
 
-App for people going through divorce. Private journal with AI summaries, document vault, financial tracker, timeline, and a brief generator that pulls everything together into something you can send to a solicitor.
+App for people navigating contentious life events (divorce, custody disputes, estate matters) where they need to document and summarise their circumstances for a solicitor.
 
 No live link. The app is behind auth and the content is sensitive (finances, kids, legal stuff), so there are screenshots below instead.
 
